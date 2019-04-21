@@ -17,17 +17,11 @@
       <file leaf-file-name="form.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/views/frm-forms/form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="8" column="72" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/classes/views/frm-forms/edit.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="70" selection-end-line="44" />
+            <state relative-caret-position="238">
+              <caret line="15" column="105" selection-start-line="15" selection-start-column="105" selection-end-line="15" selection-end-column="105" />
+              <folding>
+                <element signature="n#style#0;n#select#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -35,11 +29,17 @@
       <file leaf-file-name="FrmFormsController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/controllers/FrmFormsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="876" column="73" selection-start-line="876" selection-start-column="73" selection-end-line="876" selection-end-column="73" />
-              <folding>
-                <element signature="e#37521#38606#0#PHP" />
-              </folding>
+            <state relative-caret-position="405">
+              <caret line="916" selection-start-line="916" selection-end-line="916" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FrmForm.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/classes/models/FrmForm.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -47,8 +47,8 @@
       <file leaf-file-name="FrmSettingsController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/controllers/FrmSettingsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1870">
-              <caret line="110" column="26" selection-start-line="110" selection-start-column="14" selection-end-line="110" selection-end-column="26" />
+            <state relative-caret-position="85">
+              <caret line="5" column="50" lean-forward="true" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -57,11 +57,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>$action(</find>
-      <find>action</find>
-      <find>edit.php</find>
-      <find>titlediv</find>
-      <find>getOne(</find>
       <find>getAll</find>
       <find>get_results</find>
       <find>FrmDb</find>
@@ -84,19 +79,25 @@
       <find>$nav_items</find>
       <find>id=&quot;titlediv&quot;</find>
       <find>form.php</find>
-      <find>display_form</find>
       <find>register_widgets</find>
       <find>$form</find>
+      <find>frm_forms</find>
+      <find>route</find>
+      <find>create</find>
+      <find>display_form</find>
+      <find>$wpdb-&gt;update</find>
+      <find>$categor</find>
     </findStrings>
     <replaceStrings>
       <replace>formidable_page_statistics</replace>
     </replaceStrings>
     <dirStrings>
-      <dir>E:\xampp\htdocs\wp-survey\wp-content\plugins\formidable\classes\helpers</dir>
       <dir>E:\xampp\htdocs\wp-survey\wp-content\plugins\formidable\classes\views</dir>
       <dir>E:\xampp\htdocs\wp-survey\wp-content\plugins\formidable</dir>
       <dir>E:\xampp\htdocs\wp-survey\wp-content\plugins\formidable\classes</dir>
       <dir>E:\xampp\htdocs\wp-survey\wp-content\plugins\formidable\classes\controllers</dir>
+      <dir>E:\xampp\htdocs\wp-survey\wp-content\plugins\formidable\classes\helpers</dir>
+      <dir>E:\xampp\htdocs\wp-survey\wp-content\plugins\formidable\classes\models</dir>
     </dirStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -118,8 +119,10 @@
         <option value="$PROJECT_DIR$/classes/views/shared/form-nav.php" />
         <option value="$PROJECT_DIR$/classes/controllers/FrmAppController.php" />
         <option value="$PROJECT_DIR$/classes/views/frm-statistics/show.php" />
-        <option value="$PROJECT_DIR$/classes/controllers/FrmFormsController.php" />
         <option value="$PROJECT_DIR$/classes/views/frm-forms/edit.php" />
+        <option value="$PROJECT_DIR$/classes/controllers/FrmFormsController.php" />
+        <option value="$PROJECT_DIR$/classes/views/frm-forms/form.php" />
+        <option value="$PROJECT_DIR$/classes/models/FrmForm.php" />
       </list>
     </option>
   </component>
@@ -264,12 +267,12 @@
       <workItem from="1555234651741" duration="17478000" />
       <workItem from="1555312920630" duration="3566000" />
       <workItem from="1555317259713" duration="100000" />
-      <workItem from="1555834773253" duration="722000" />
+      <workItem from="1555834773253" duration="4227000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29130000" />
+    <option name="totallyTimeSpent" value="32635000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -281,11 +284,11 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6331169" visible="true" weight="0.03706505" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6331169" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info id="Structure" order="1" sideWeight="0.36688313" side_tool="true" visible="true" weight="0.03706505" />
+      <window_info id="Structure" order="1" sideWeight="0.36688313" side_tool="true" visible="true" weight="0.0" />
       <window_info id="Favorites" order="2" sideWeight="0.5016234" side_tool="true" weight="0.20499243" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -310,8 +313,13 @@
           <line>74</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/classes/controllers/FrmFormsController.php</url>
+          <line>94</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="8" />
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -597,13 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/models/FrmForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="246" column="76" selection-start-line="246" selection-start-column="52" selection-end-line="246" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classes/controllers/FrmStatisticsController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -635,34 +636,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/classes/views/frm-forms/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/classes/controllers/FrmSettingsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1870">
-          <caret line="110" column="26" selection-start-line="110" selection-start-column="14" selection-end-line="110" selection-end-column="26" />
+        <state relative-caret-position="85">
+          <caret line="5" column="50" lean-forward="true" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/controllers/FrmFormsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="876" column="73" selection-start-line="876" selection-start-column="73" selection-end-line="876" selection-end-column="73" />
-          <folding>
-            <element signature="e#37521#38606#0#PHP" />
-          </folding>
+        <state relative-caret-position="405">
+          <caret line="916" selection-start-line="916" selection-end-line="916" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/views/frm-forms/form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="8" column="72" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="72" />
+        <state relative-caret-position="238">
+          <caret line="15" column="105" selection-start-line="15" selection-start-column="105" selection-end-line="15" selection-end-column="105" />
+          <folding>
+            <element signature="n#style#0;n#select#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/views/frm-forms/edit.php">
+    <entry file="file://$PROJECT_DIR$/classes/models/FrmForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="70" selection-end-line="44" />
+        <state relative-caret-position="204">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
