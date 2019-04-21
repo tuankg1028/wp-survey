@@ -26,29 +26,45 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="list.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classes/views/frm-forms/list.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="21" column="23" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="FrmFormsController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/controllers/FrmFormsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="916" selection-start-line="916" selection-end-line="916" />
+            <state relative-caret-position="197">
+              <caret line="745" column="47" selection-start-line="745" selection-start-column="29" selection-end-line="745" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FrmForm.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/classes/models/FrmForm.php">
+      <file leaf-file-name="FrmFormsListHelper.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classes/helpers/FrmFormsListHelper.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="299">
+              <caret line="201" column="48" lean-forward="true" selection-start-line="201" selection-start-column="48" selection-end-line="201" selection-end-column="48" />
+              <folding>
+                <element signature="e#517#602#0#PHP" />
+                <element signature="e#617#705#0#PHP" />
+                <element signature="e#720#805#0#PHP" />
+                <element signature="e#820#925#0#PHP" />
+                <element signature="e#941#1041#0#PHP" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FrmSettingsController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes/controllers/FrmSettingsController.php">
+      <file leaf-file-name="FrmListHelper.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/classes/helpers/FrmListHelper.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="50" lean-forward="true" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+            <state relative-caret-position="354">
+              <caret line="822" lean-forward="true" selection-start-line="822" selection-end-line="822" />
             </state>
           </provider>
         </entry>
@@ -57,14 +73,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getAll</find>
-      <find>get_results</find>
-      <find>FrmDb</find>
-      <find>getOne</find>
-      <find>de</find>
-      <find>code</find>
-      <find>field_option</find>
-      <find>Create</find>
       <find>insert_entry_into_database</find>
       <find>continue_to_create_entry</find>
       <find>before_insert_entry_in_database</find>
@@ -87,6 +95,14 @@
       <find>display_form</find>
       <find>$wpdb-&gt;update</find>
       <find>$categor</find>
+      <find>display_rows_or_placeholder</find>
+      <find>has_items</find>
+      <find>display_rows</find>
+      <find>display()</find>
+      <find>list</find>
+      <find>single_row</find>
+      <find>get_column_headers(</find>
+      <find>get_column_headers(</find>
     </findStrings>
     <replaceStrings>
       <replace>formidable_page_statistics</replace>
@@ -112,8 +128,6 @@
         <option value="$PROJECT_DIR$/classes/controllers/FrmHooksController.php" />
         <option value="$PROJECT_DIR$/classes/views/frm-forms/list.php" />
         <option value="$PROJECT_DIR$/classes/views/frm-statistics/list.php" />
-        <option value="$PROJECT_DIR$/classes/helpers/FrmListHelper.php" />
-        <option value="$PROJECT_DIR$/classes/helpers/FrmFormsListHelper.php" />
         <option value="$PROJECT_DIR$/classes/helpers/FrmStatisticsListHelper.php" />
         <option value="$PROJECT_DIR$/classes/controllers/FrmStatisticsController.php" />
         <option value="$PROJECT_DIR$/classes/views/shared/form-nav.php" />
@@ -123,6 +137,8 @@
         <option value="$PROJECT_DIR$/classes/controllers/FrmFormsController.php" />
         <option value="$PROJECT_DIR$/classes/views/frm-forms/form.php" />
         <option value="$PROJECT_DIR$/classes/models/FrmForm.php" />
+        <option value="$PROJECT_DIR$/classes/helpers/FrmFormsListHelper.php" />
+        <option value="$PROJECT_DIR$/classes/helpers/FrmListHelper.php" />
       </list>
     </option>
   </component>
@@ -267,12 +283,12 @@
       <workItem from="1555234651741" duration="17478000" />
       <workItem from="1555312920630" duration="3566000" />
       <workItem from="1555317259713" duration="100000" />
-      <workItem from="1555834773253" duration="4227000" />
+      <workItem from="1555834773253" duration="5946000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32635000" />
+    <option name="totallyTimeSpent" value="34354000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -284,11 +300,11 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6331169" visible="true" weight="0.0" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.34902596" visible="true" weight="0.046898637" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info id="Structure" order="1" sideWeight="0.36688313" side_tool="true" visible="true" weight="0.0" />
+      <window_info id="Structure" order="1" sideWeight="0.65097404" side_tool="true" visible="true" weight="0.046898637" />
       <window_info id="Favorites" order="2" sideWeight="0.5016234" side_tool="true" weight="0.20499243" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -319,7 +335,7 @@
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="10" />
+      <option name="time" value="11" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -542,27 +558,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/views/frm-forms/list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/helpers/FrmFormsListHelper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="289" column="31" lean-forward="true" selection-start-line="289" selection-start-column="31" selection-end-line="289" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/helpers/FrmListHelper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="138" column="42" selection-start-line="138" selection-start-column="32" selection-end-line="138" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classes/views/frm-statistics/list.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -650,10 +645,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/controllers/FrmFormsController.php">
+    <entry file="file://$PROJECT_DIR$/classes/models/FrmForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="916" selection-start-line="916" selection-end-line="916" />
+        <state relative-caret-position="204">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
@@ -667,10 +662,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/models/FrmForm.php">
+    <entry file="file://$PROJECT_DIR$/classes/controllers/FrmFormsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="197">
+          <caret line="745" column="47" selection-start-line="745" selection-start-column="29" selection-end-line="745" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/views/frm-forms/list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/helpers/FrmFormsListHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="201" column="48" lean-forward="true" selection-start-line="201" selection-start-column="48" selection-end-line="201" selection-end-column="48" />
+          <folding>
+            <element signature="e#517#602#0#PHP" />
+            <element signature="e#617#705#0#PHP" />
+            <element signature="e#720#805#0#PHP" />
+            <element signature="e#820#925#0#PHP" />
+            <element signature="e#941#1041#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/helpers/FrmListHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="822" lean-forward="true" selection-start-line="822" selection-end-line="822" />
         </state>
       </provider>
     </entry>
