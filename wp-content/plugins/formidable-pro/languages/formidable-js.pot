@@ -1,0 +1,12 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"X-Generator: babel-plugin-makepot\n"
+
+#: ../formidable/js/src/common/components/itemselect.js:26
+msgid "Select a %s"
+msgstr ""
+
+#: ../formidable/js/src/common/components/itemselect.js:47
+msgid "Currently, there are no %s"
+msgstr ""
