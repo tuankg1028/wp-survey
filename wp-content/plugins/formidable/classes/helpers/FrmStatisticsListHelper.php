@@ -188,7 +188,7 @@ class FrmStatisticsListHelper extends FrmListHelper {
 
 		// Set up the hover actions for this user
 		$actions = array();
-		$edit_link = '?page=formidable&frm_action=edit&id=' . $item->id;
+		$edit_link = '?page=statistics&frm_action=statistic&id=' . $item->id;
 
 		$this->get_actions( $actions, $item, $edit_link );
 

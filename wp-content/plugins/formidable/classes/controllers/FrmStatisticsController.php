@@ -94,6 +94,40 @@ class FrmStatisticsController
             $options = array();
             switch ($field->type) {
                 case 'checkbox':
+                    {
+                        // options of field
+                        $entry_options = maybe_unserialize($field->options);
+                        // total entries
+                        $total = $wpdb->get_row("SELECT count(*) as count FROM " . $prefix . "frm_items fi LEFT JOIN " . $prefix . "frm_item_metas fim ON fi.id = fim.item_id WHERE fi.form_id = {$id} AND fim.field_id = {$field->id}")->count;
+
+
+                        foreach ($entry_options as $option) {
+                            $values_of_field = $wpdb->get_results("SELECT meta_value FROM " . $prefix . "frm_items fi LEFT JOIN " . $prefix . "frm_item_metas fim ON fi.id = fim.item_id WHERE fi.form_id = {$id} AND fim.field_id = {$field->id}");
+                            $selected_total = 0;
+
+                            // lặp các value trong $values_of_field ( value có thể là array vì checkbox có thể chọn nhìu đáp án)
+                            foreach ($values_of_field as $value) {
+
+                                $meta_value = $value->meta_value;
+                                // là array
+                                if(is_array(maybe_unserialize($meta_value)) && in_array($option['label'], maybe_unserialize($meta_value))) {
+                                    $selected_total++;
+                                }
+                                // là string
+                                if($meta_value == $option['label']) {
+                                    $selected_total++;
+
+                                }
+                            }
+
+                            $percent = round(((float)$selected_total / (float)$total) * 100, 2);
+                            $options[] = array(
+                                'label' => $option['label'],
+                                'percent' => $percent
+                            );
+                        }
+                        break;
+                    }
                 case 'select':
                     {
                         // options of field
@@ -102,7 +136,7 @@ class FrmStatisticsController
                         $total = $wpdb->get_row("SELECT count(*) as count FROM " . $prefix . "frm_items fi LEFT JOIN " . $prefix . "frm_item_metas fim ON fi.id = fim.item_id WHERE fi.form_id = {$id} AND fim.field_id = {$field->id}")->count;
 
 
-                        foreach ($entry_options as $option) {var_dump($option);
+                        foreach ($entry_options as $option) {
                             $selected_total = $wpdb->get_row("SELECT count(*) as count FROM " . $prefix . "frm_items fi LEFT JOIN " . $prefix . "frm_item_metas fim ON fi.id = fim.item_id WHERE fi.form_id = {$id} AND fim.field_id = {$field->id} AND meta_value = '{$option['label']}'")->count;
 
                             $percent = round(((float)$selected_total / (float)$total) * 100, 2);
@@ -113,7 +147,7 @@ class FrmStatisticsController
                         }
                         break;
                     }
-                    case 'radio':
+                case 'radio':
                     {
                         // options of field
                         $entry_options = maybe_unserialize($field->options);
